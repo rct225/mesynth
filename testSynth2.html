@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<button onclick="playSound()">Play me</button>
+
+<script src="audiosynth/audiosynth.js"></script>
+<script>
+function playSound() {
+	 var piano = Synth.createInstrument('piano');
+	 piano.play('C', 4, 2);
+}
+</script>
+
+</body>
+</html>
